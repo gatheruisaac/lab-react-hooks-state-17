@@ -1,0 +1,66 @@
+ /* src/App.css */
+/* Styles for light and dark mode */
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  min-height: 100vh;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Button styles */
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Cart styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+}
+
+/* Filter dropdown */
+select {
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Product card styles */
+div {
+  margin: 10px 0;
+}
